@@ -1,4 +1,4 @@
-/*Cree una tabla llamada CURSO con los atributos:
+8/*Cree una tabla llamada CURSO con los atributos:
 Código de curso (clave primaria, entero no nulo)
 Nombre (varchar no nulo)
 Descripcion (varcha)
@@ -16,7 +16,6 @@ alter table CURSO add cupo int;
 /*inserte datos en la tabla:
 (101, “Algoritmos”,”Algoritmos y Estructuras de Datos”,”Mañana”,35)
 (102, “Matemática Discreta”,””,”Tarde”,30)*/
-SET IDENTITY_INSERT CURSO ON;
 
 insert into CURSO (codigo,nombre,descripcion,turno,cupo) values (101, 'Algoritmos','Algoritmos y Estructuras de Datos','Mañana',35);
 insert into CURSO (codigo,nombre,descripcion,turno,cupo) values (102, 'Matemática Discreta','','Tarde',30);
